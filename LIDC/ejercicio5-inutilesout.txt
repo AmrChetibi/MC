@@ -1,0 +1,6 @@
+V = {S,A,C}
+T = {a,b,e}
+
+S -> aAb
+A -> eeC
+C -> ae

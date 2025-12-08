@@ -1,0 +1,9 @@
+V = {S,A,B,C,D,E}
+T = {a}
+
+S -> Aa|
+A -> Ba
+B -> Ca|
+C -> Da|
+D -> Ea|
+E -> Sa

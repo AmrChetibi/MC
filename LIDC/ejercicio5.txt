@@ -1,0 +1,8 @@
+V = {S,A,B,C,D,E,F}
+T = {a,b,c,d,e,f}
+
+S -> aAb|cEB|CE
+A -> dBE|eeC
+B -> ff|D
+C -> gFB|ae
+D -> h

@@ -1,0 +1,14 @@
+V = {S,A,B,<Ca>,<Cb>,<Cc>,<Cd>,<D1>,<D2>,<D3>,<D4>}
+T = {a,b,c,d}
+
+S -> AB|<Cc><Cd>|<Ca><Cb>|<Cc><D3>|<Ca><D4>
+A -> <Ca><Cb>|<Ca><D1>
+B -> <Cc><Cd>|<Cc><D2>
+<Ca> -> a
+<Cb> -> b
+<Cc> -> c
+<Cd> -> d
+<D1> -> A<Cb>
+<D2> -> B<Cd>
+<D3> -> B<Cd>
+<D4> -> A<Cb>

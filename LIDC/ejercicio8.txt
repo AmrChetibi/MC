@@ -1,0 +1,6 @@
+V = {S1,S2,S3}
+T = {a,b,c,d,e}
+
+S1 -> S1S2c|S3|S3bS3
+S2 -> S1S1|d
+S3 -> S2e
