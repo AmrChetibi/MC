@@ -20,3 +20,5 @@ print("Paso 0:", word)
 # print("Paso k:", word)
 
 # Cuando consigas llegar a "00111100", ya tienes la cadena de derivación.
+
+revisar
